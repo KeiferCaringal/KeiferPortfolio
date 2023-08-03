@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keif Web Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h5>KEIF</h5>
+            <h5>KEIF</h5>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="\Home\home.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="\About\about.html">About</a>
+                </li>
+                <li>
+                    <a href="\Services\services.html">Service</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Keifer Caringal</h1>
+            <div class="wrapper">
+                <div class="container">
+                    <h1>I'm a <span class="auto-type"></span></h1>
+                </div>
+            
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            
+                <script>
+                    var typed = new Typed(".auto-type", {
+                        strings: ["Future Engineer", "Software Engineer", "Freelancer"],
+                        typeSpeed: 100,
+                        backSpeed: 150,
+                        loop: true
+                    })
+                </script>
+
+            <p>I am a student of Technological Institute of the Philippines taking the course BSCpE. </p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">More Me</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/jankeifer.caringal/"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://github.com/KeiferCaringal"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/jan-keifer-caringal-684ab6149/"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+    </section>
+
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            var navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    
+        <div class="skills">
+            <h1>Skills</h1>
+            <div class="slider">
+                <span style="--i:1;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:2;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:3;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:4;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:5;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:6;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:7;"><img src="AAAA.jpg" alt=""></span>
+                <span style="--i:8;"><img src="AAAA.jpg" alt=""></span>
+            </div>
+
+        </div>
+
+</body>
+</html>

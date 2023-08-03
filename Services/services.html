@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keif Web Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">KEIF</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="\Home\home.html">Home</a>
+                </li>
+                <li>
+                    <a href="\About\about.html">About</a>
+                </li>
+                <li>
+                    <a href="\Services\services.html" class="active">Service</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Keifer Caringal</h1>
+            <h3>Future Software Engineer</h3>
+            <p>I am currently studying at the watdapak skul</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/jankeifer.caringal/"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://github.com/KeiferCaringal"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/jan-keifer-caringal-684ab6149/"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+    </section>
+
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            var navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
