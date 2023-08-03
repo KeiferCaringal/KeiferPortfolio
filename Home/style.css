@@ -171,7 +171,7 @@ header {
 /*/////Home Contents////*/
 .home {
     height: 100vh;
-    background: url('Main.png') no-repeat;
+    background: url('images/Main.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -314,8 +314,8 @@ span {
     font-size: 40px;
     font-weight: 700;
     color: #66fcf1;
-    padding-top: 5%;
-    padding-bottom: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 .slider {
@@ -361,3 +361,4 @@ span {
 .slider span:hover img{
     transform: translateY(-30px) scale(1);
 }
+
