@@ -12,6 +12,7 @@
 
 body {
     color: #fefefe;
+    background-color: black;
 }
 
 header {
@@ -314,8 +315,8 @@ span {
     font-size: 40px;
     font-weight: 700;
     color: #66fcf1;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 100px;
 }
 
 .slider {
@@ -362,3 +363,14 @@ span {
     transform: translateY(-30px) scale(1);
 }
 
+.certs h1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+    color: #66fcf1;
+    padding-top: 100px;
+}
+
+.slide img {
+    width: 20%;
+}
